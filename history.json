@@ -1,0 +1,3057 @@
+{
+  "player": [
+    {
+      "name": "Player A",
+      "score": 24
+    },
+    {
+      "name": "Player B",
+      "score": 30
+    }
+  ],
+  "winner": {
+    "name": "Player B",
+    "score": 30
+  },
+  "endScore": 30,
+  "hands": [
+    {
+      "round": 1,
+      "player": [
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "CO",
+              "number": 7,
+              "value": 7
+            },
+            {
+              "type": "S",
+              "number": 1,
+              "value": 1
+            },
+            {
+              "type": "CU",
+              "number": 10,
+              "value": 0
+            }
+          ],
+          "point": 7
+        },
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "B",
+              "number": 7,
+              "value": 7
+            },
+            {
+              "type": "CU",
+              "number": 6,
+              "value": 6
+            },
+            {
+              "type": "CU",
+              "number": 12,
+              "value": 0
+            }
+          ],
+          "point": 26
+        }
+      ],
+      "winner": {
+        "name": "Player B",
+        "point": 1
+      },
+      "logs": [
+        "Game starts!",
+        "1 Hand:",
+        "Player A: 7-CO 1-S 10-CU",
+        "Player B: 7-B 6-CU 12-CU",
+        "Player A Starts:",
+        "Player A: Passes",
+        "Player B: Calls Envido (his score is 26)",
+        "Player A: Don’t want (because his score is 7)",
+        "Player B: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 0 Player B: 1"
+      ]
+    },
+    {
+      "round": 2,
+      "player": [
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "CO",
+              "number": 3,
+              "value": 3
+            },
+            {
+              "type": "CO",
+              "number": 1,
+              "value": 1
+            },
+            {
+              "type": "CO",
+              "number": 11,
+              "value": 0
+            }
+          ],
+          "point": 24
+        },
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "CO",
+              "number": 4,
+              "value": 4
+            },
+            {
+              "type": "S",
+              "number": 2,
+              "value": 2
+            },
+            {
+              "type": "S",
+              "number": 11,
+              "value": 0
+            }
+          ],
+          "point": 22
+        }
+      ],
+      "winner": {
+        "name": "Player A",
+        "point": 1
+      },
+      "logs": [
+        "2 Hand:",
+        "Player B: 3-CO 1-CO 11-CO",
+        "Player A: 4-CO 2-S 11-S",
+        "Player B Starts:",
+        "Player B: Passes",
+        "Player A: Calls Envido (his score is 22)",
+        "Player B: Don’t want (because his score is 24)",
+        "Player A: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 1 Player B: 1"
+      ]
+    },
+    {
+      "round": 3,
+      "player": [
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "B",
+              "number": 5,
+              "value": 5
+            },
+            {
+              "type": "S",
+              "number": 3,
+              "value": 3
+            },
+            {
+              "type": "CO",
+              "number": 11,
+              "value": 0
+            }
+          ],
+          "point": 5
+        },
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "CU",
+              "number": 6,
+              "value": 6
+            },
+            {
+              "type": "CU",
+              "number": 11,
+              "value": 0
+            },
+            {
+              "type": "B",
+              "number": 10,
+              "value": 0
+            }
+          ],
+          "point": 26
+        }
+      ],
+      "winner": {
+        "name": "Player B",
+        "point": 1
+      },
+      "logs": [
+        "3 Hand:",
+        "Player A: 5-B 3-S 11-CO",
+        "Player B: 6-CU 11-CU 10-B",
+        "Player A Starts:",
+        "Player A: Passes",
+        "Player B: Calls Envido (his score is 26)",
+        "Player A: Don’t want (because his score is 5)",
+        "Player B: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 1 Player B: 2"
+      ]
+    },
+    {
+      "round": 4,
+      "player": [
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "CU",
+              "number": 7,
+              "value": 7
+            },
+            {
+              "type": "B",
+              "number": 2,
+              "value": 2
+            },
+            {
+              "type": "CO",
+              "number": 10,
+              "value": 0
+            }
+          ],
+          "point": 7
+        },
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "CO",
+              "number": 6,
+              "value": 6
+            },
+            {
+              "type": "CO",
+              "number": 2,
+              "value": 2
+            },
+            {
+              "type": "S",
+              "number": 2,
+              "value": 2
+            }
+          ],
+          "point": 28
+        }
+      ],
+      "winner": {
+        "name": "Player A",
+        "point": 1
+      },
+      "logs": [
+        "4 Hand:",
+        "Player B: 7-CU 2-B 10-CO",
+        "Player A: 6-CO 2-CO 2-S",
+        "Player B Starts:",
+        "Player B: Passes",
+        "Player A: Calls Envido (his score is 28)",
+        "Player B: Don’t want (because his score is 7)",
+        "Player A: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 2 Player B: 2"
+      ]
+    },
+    {
+      "round": 5,
+      "player": [
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "CO",
+              "number": 2,
+              "value": 2
+            },
+            {
+              "type": "CU",
+              "number": 1,
+              "value": 1
+            },
+            {
+              "type": "CU",
+              "number": 12,
+              "value": 0
+            }
+          ],
+          "point": 21
+        },
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "B",
+              "number": 4,
+              "value": 4
+            },
+            {
+              "type": "B",
+              "number": 10,
+              "value": 0
+            },
+            {
+              "type": "CO",
+              "number": 10,
+              "value": 0
+            }
+          ],
+          "point": 24
+        }
+      ],
+      "winner": {
+        "name": "Player B",
+        "point": 1
+      },
+      "logs": [
+        "5 Hand:",
+        "Player A: 2-CO 1-CU 12-CU",
+        "Player B: 4-B 10-B 10-CO",
+        "Player A Starts:",
+        "Player A: Passes",
+        "Player B: Calls Envido (his score is 24)",
+        "Player A: Don’t want (because his score is 21)",
+        "Player B: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 2 Player B: 3"
+      ]
+    },
+    {
+      "round": 6,
+      "player": [
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "CU",
+              "number": 4,
+              "value": 4
+            },
+            {
+              "type": "CO",
+              "number": 1,
+              "value": 1
+            },
+            {
+              "type": "CU",
+              "number": 12,
+              "value": 0
+            }
+          ],
+          "point": 24
+        },
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "B",
+              "number": 5,
+              "value": 5
+            },
+            {
+              "type": "CO",
+              "number": 2,
+              "value": 2
+            },
+            {
+              "type": "CU",
+              "number": 11,
+              "value": 0
+            }
+          ],
+          "point": 5
+        }
+      ],
+      "winner": {
+        "name": "Player A",
+        "point": 1
+      },
+      "logs": [
+        "6 Hand:",
+        "Player B: 4-CU 1-CO 12-CU",
+        "Player A: 5-B 2-CO 11-CU",
+        "Player B Starts:",
+        "Player B: Passes",
+        "Player A: Calls Envido (his score is 5)",
+        "Player B: Don’t want (because his score is 24)",
+        "Player A: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 3 Player B: 3"
+      ]
+    },
+    {
+      "round": 7,
+      "player": [
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "S",
+              "number": 5,
+              "value": 5
+            },
+            {
+              "type": "S",
+              "number": 1,
+              "value": 1
+            },
+            {
+              "type": "CU",
+              "number": 1,
+              "value": 1
+            }
+          ],
+          "point": 26
+        },
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "S",
+              "number": 11,
+              "value": 0
+            },
+            {
+              "type": "CO",
+              "number": 11,
+              "value": 0
+            },
+            {
+              "type": "B",
+              "number": 12,
+              "value": 0
+            }
+          ],
+          "point": 0
+        }
+      ],
+      "winner": {
+        "name": "Player B",
+        "point": 1
+      },
+      "logs": [
+        "7 Hand:",
+        "Player A: 5-S 1-S 1-CU",
+        "Player B: 11-S 11-CO 12-B",
+        "Player A Starts:",
+        "Player A: Passes",
+        "Player B: Calls Envido (his score is 0)",
+        "Player A: Don’t want (because his score is 26)",
+        "Player B: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 3 Player B: 4"
+      ]
+    },
+    {
+      "round": 8,
+      "player": [
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "B",
+              "number": 7,
+              "value": 7
+            },
+            {
+              "type": "CU",
+              "number": 5,
+              "value": 5
+            },
+            {
+              "type": "CU",
+              "number": 12,
+              "value": 0
+            }
+          ],
+          "point": 25
+        },
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "CU",
+              "number": 3,
+              "value": 3
+            },
+            {
+              "type": "CU",
+              "number": 2,
+              "value": 2
+            },
+            {
+              "type": "CO",
+              "number": 11,
+              "value": 0
+            }
+          ],
+          "point": 25
+        }
+      ],
+      "winner": {
+        "name": "Player A",
+        "point": 1
+      },
+      "logs": [
+        "8 Hand:",
+        "Player B: 7-B 5-CU 12-CU",
+        "Player A: 3-CU 2-CU 11-CO",
+        "Player B Starts:",
+        "Player B: Passes",
+        "Player A: Calls Envido (his score is 25)",
+        "Player B: Don’t want (because his score is 25)",
+        "Player A: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 4 Player B: 4"
+      ]
+    },
+    {
+      "round": 9,
+      "player": [
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "CO",
+              "number": 5,
+              "value": 5
+            },
+            {
+              "type": "CU",
+              "number": 2,
+              "value": 2
+            },
+            {
+              "type": "S",
+              "number": 1,
+              "value": 1
+            }
+          ],
+          "point": 5
+        },
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "B",
+              "number": 4,
+              "value": 4
+            },
+            {
+              "type": "S",
+              "number": 4,
+              "value": 4
+            },
+            {
+              "type": "S",
+              "number": 11,
+              "value": 0
+            }
+          ],
+          "point": 24
+        }
+      ],
+      "winner": {
+        "name": "Player B",
+        "point": 1
+      },
+      "logs": [
+        "9 Hand:",
+        "Player A: 5-CO 2-CU 1-S",
+        "Player B: 4-B 4-S 11-S",
+        "Player A Starts:",
+        "Player A: Passes",
+        "Player B: Calls Envido (his score is 24)",
+        "Player A: Don’t want (because his score is 5)",
+        "Player B: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 4 Player B: 5"
+      ]
+    },
+    {
+      "round": 10,
+      "player": [
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "S",
+              "number": 7,
+              "value": 7
+            },
+            {
+              "type": "B",
+              "number": 5,
+              "value": 5
+            },
+            {
+              "type": "CU",
+              "number": 2,
+              "value": 2
+            }
+          ],
+          "point": 7
+        },
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "CU",
+              "number": 3,
+              "value": 3
+            },
+            {
+              "type": "CO",
+              "number": 10,
+              "value": 0
+            },
+            {
+              "type": "CO",
+              "number": 12,
+              "value": 0
+            }
+          ],
+          "point": 20
+        }
+      ],
+      "winner": {
+        "name": "Player A",
+        "point": 1
+      },
+      "logs": [
+        "10 Hand:",
+        "Player B: 7-S 5-B 2-CU",
+        "Player A: 3-CU 10-CO 12-CO",
+        "Player B Starts:",
+        "Player B: Passes",
+        "Player A: Calls Envido (his score is 20)",
+        "Player B: Don’t want (because his score is 7)",
+        "Player A: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 5 Player B: 5"
+      ]
+    },
+    {
+      "round": 11,
+      "player": [
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "CO",
+              "number": 6,
+              "value": 6
+            },
+            {
+              "type": "B",
+              "number": 4,
+              "value": 4
+            },
+            {
+              "type": "B",
+              "number": 2,
+              "value": 2
+            }
+          ],
+          "point": 26
+        },
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "B",
+              "number": 3,
+              "value": 3
+            },
+            {
+              "type": "S",
+              "number": 1,
+              "value": 1
+            },
+            {
+              "type": "CO",
+              "number": 12,
+              "value": 0
+            }
+          ],
+          "point": 3
+        }
+      ],
+      "winner": {
+        "name": "Player B",
+        "point": 1
+      },
+      "logs": [
+        "11 Hand:",
+        "Player A: 6-CO 4-B 2-B",
+        "Player B: 3-B 1-S 12-CO",
+        "Player A Starts:",
+        "Player A: Passes",
+        "Player B: Calls Envido (his score is 3)",
+        "Player A: Don’t want (because his score is 26)",
+        "Player B: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 5 Player B: 6"
+      ]
+    },
+    {
+      "round": 12,
+      "player": [
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "CU",
+              "number": 1,
+              "value": 1
+            },
+            {
+              "type": "B",
+              "number": 12,
+              "value": 0
+            },
+            {
+              "type": "B",
+              "number": 11,
+              "value": 0
+            }
+          ],
+          "point": 20
+        },
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "B",
+              "number": 1,
+              "value": 1
+            },
+            {
+              "type": "S",
+              "number": 10,
+              "value": 0
+            },
+            {
+              "type": "S",
+              "number": 12,
+              "value": 0
+            }
+          ],
+          "point": 20
+        }
+      ],
+      "winner": {
+        "name": "Player A",
+        "point": 1
+      },
+      "logs": [
+        "12 Hand:",
+        "Player B: 1-CU 12-B 11-B",
+        "Player A: 1-B 10-S 12-S",
+        "Player B Starts:",
+        "Player B: Passes",
+        "Player A: Calls Envido (his score is 20)",
+        "Player B: Don’t want (because his score is 20)",
+        "Player A: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 6 Player B: 6"
+      ]
+    },
+    {
+      "round": 13,
+      "player": [
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "CU",
+              "number": 2,
+              "value": 2
+            },
+            {
+              "type": "S",
+              "number": 11,
+              "value": 0
+            },
+            {
+              "type": "S",
+              "number": 12,
+              "value": 0
+            }
+          ],
+          "point": 20
+        },
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "CO",
+              "number": 7,
+              "value": 7
+            },
+            {
+              "type": "S",
+              "number": 3,
+              "value": 3
+            },
+            {
+              "type": "B",
+              "number": 10,
+              "value": 0
+            }
+          ],
+          "point": 7
+        }
+      ],
+      "winner": {
+        "name": "Player B",
+        "point": 1
+      },
+      "logs": [
+        "13 Hand:",
+        "Player A: 2-CU 11-S 12-S",
+        "Player B: 7-CO 3-S 10-B",
+        "Player A Starts:",
+        "Player A: Passes",
+        "Player B: Calls Envido (his score is 7)",
+        "Player A: Don’t want (because his score is 20)",
+        "Player B: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 6 Player B: 7"
+      ]
+    },
+    {
+      "round": 14,
+      "player": [
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "B",
+              "number": 3,
+              "value": 3
+            },
+            {
+              "type": "S",
+              "number": 2,
+              "value": 2
+            },
+            {
+              "type": "CO",
+              "number": 12,
+              "value": 0
+            }
+          ],
+          "point": 3
+        },
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "B",
+              "number": 6,
+              "value": 6
+            },
+            {
+              "type": "CO",
+              "number": 2,
+              "value": 2
+            },
+            {
+              "type": "S",
+              "number": 10,
+              "value": 0
+            }
+          ],
+          "point": 6
+        }
+      ],
+      "winner": {
+        "name": "Player A",
+        "point": 1
+      },
+      "logs": [
+        "14 Hand:",
+        "Player B: 3-B 2-S 12-CO",
+        "Player A: 6-B 2-CO 10-S",
+        "Player B Starts:",
+        "Player B: Passes",
+        "Player A: Calls Envido (his score is 6)",
+        "Player B: Don’t want (because his score is 3)",
+        "Player A: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 7 Player B: 7"
+      ]
+    },
+    {
+      "round": 15,
+      "player": [
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "CU",
+              "number": 6,
+              "value": 6
+            },
+            {
+              "type": "CO",
+              "number": 6,
+              "value": 6
+            },
+            {
+              "type": "CU",
+              "number": 12,
+              "value": 0
+            }
+          ],
+          "point": 26
+        },
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "B",
+              "number": 5,
+              "value": 5
+            },
+            {
+              "type": "S",
+              "number": 1,
+              "value": 1
+            },
+            {
+              "type": "S",
+              "number": 10,
+              "value": 0
+            }
+          ],
+          "point": 21
+        }
+      ],
+      "winner": {
+        "name": "Player B",
+        "point": 1
+      },
+      "logs": [
+        "15 Hand:",
+        "Player A: 6-CU 6-CO 12-CU",
+        "Player B: 5-B 1-S 10-S",
+        "Player A Starts:",
+        "Player A: Passes",
+        "Player B: Calls Envido (his score is 21)",
+        "Player A: Don’t want (because his score is 26)",
+        "Player B: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 7 Player B: 8"
+      ]
+    },
+    {
+      "round": 16,
+      "player": [
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "CO",
+              "number": 6,
+              "value": 6
+            },
+            {
+              "type": "CO",
+              "number": 2,
+              "value": 2
+            },
+            {
+              "type": "S",
+              "number": 12,
+              "value": 0
+            }
+          ],
+          "point": 28
+        },
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "S",
+              "number": 7,
+              "value": 7
+            },
+            {
+              "type": "B",
+              "number": 6,
+              "value": 6
+            },
+            {
+              "type": "CU",
+              "number": 10,
+              "value": 0
+            }
+          ],
+          "point": 7
+        }
+      ],
+      "winner": {
+        "name": "Player B",
+        "point": 1
+      },
+      "logs": [
+        "16 Hand:",
+        "Player B: 6-CO 2-CO 12-S",
+        "Player A: 7-S 6-B 10-CU",
+        "Player B Starts:",
+        "Player B: Calls Envido (his score is 28)",
+        "Player A: Don’t want (because his score is 7)",
+        "Player B: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 7 Player B: 9"
+      ]
+    },
+    {
+      "round": 17,
+      "player": [
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "CO",
+              "number": 7,
+              "value": 7
+            },
+            {
+              "type": "CO",
+              "number": 11,
+              "value": 0
+            },
+            {
+              "type": "S",
+              "number": 12,
+              "value": 0
+            }
+          ],
+          "point": 27
+        },
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "CU",
+              "number": 5,
+              "value": 5
+            },
+            {
+              "type": "CU",
+              "number": 4,
+              "value": 4
+            },
+            {
+              "type": "CO",
+              "number": 12,
+              "value": 0
+            }
+          ],
+          "point": 29
+        }
+      ],
+      "winner": {
+        "name": "Player B",
+        "point": 2
+      },
+      "logs": [
+        "17 Hand:",
+        "Player A: 7-CO 11-CO 12-S",
+        "Player B: 5-CU 4-CU 12-CO",
+        "Player A Starts:",
+        "Player A: Calls Envido (his score is 27)",
+        "Player B: Answers I want",
+        "Player A: Announces Point of : 27",
+        "Player B: Announces Point of : 29",
+        "Player B: Wins hand and gets 2 points on global score.",
+        "Global Score : Player A: 7 Player B: 11"
+      ]
+    },
+    {
+      "round": 18,
+      "player": [
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "B",
+              "number": 4,
+              "value": 4
+            },
+            {
+              "type": "S",
+              "number": 1,
+              "value": 1
+            },
+            {
+              "type": "S",
+              "number": 12,
+              "value": 0
+            }
+          ],
+          "point": 21
+        },
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "CU",
+              "number": 4,
+              "value": 4
+            },
+            {
+              "type": "S",
+              "number": 4,
+              "value": 4
+            },
+            {
+              "type": "CU",
+              "number": 3,
+              "value": 3
+            }
+          ],
+          "point": 27
+        }
+      ],
+      "winner": {
+        "name": "Player A",
+        "point": 1
+      },
+      "logs": [
+        "18 Hand:",
+        "Player B: 4-B 1-S 12-S",
+        "Player A: 4-CU 4-S 3-CU",
+        "Player B Starts:",
+        "Player B: Passes",
+        "Player A: Calls Envido (his score is 27)",
+        "Player B: Don’t want (because his score is 21)",
+        "Player A: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 8 Player B: 11"
+      ]
+    },
+    {
+      "round": 19,
+      "player": [
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "CU",
+              "number": 7,
+              "value": 7
+            },
+            {
+              "type": "CU",
+              "number": 6,
+              "value": 6
+            },
+            {
+              "type": "CO",
+              "number": 4,
+              "value": 4
+            }
+          ],
+          "point": 33
+        },
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "CU",
+              "number": 5,
+              "value": 5
+            },
+            {
+              "type": "B",
+              "number": 3,
+              "value": 3
+            },
+            {
+              "type": "S",
+              "number": 2,
+              "value": 2
+            }
+          ],
+          "point": 5
+        }
+      ],
+      "winner": {
+        "name": "Player A",
+        "point": 1
+      },
+      "logs": [
+        "19 Hand:",
+        "Player A: 7-CU 6-CU 4-CO",
+        "Player B: 5-CU 3-B 2-S",
+        "Player A Starts:",
+        "Player A: Calls Envido (his score is 33)",
+        "Player B: Don’t want (because his score is 5)",
+        "Player A: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 9 Player B: 11"
+      ]
+    },
+    {
+      "round": 20,
+      "player": [
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "B",
+              "number": 6,
+              "value": 6
+            },
+            {
+              "type": "CU",
+              "number": 5,
+              "value": 5
+            },
+            {
+              "type": "CU",
+              "number": 2,
+              "value": 2
+            }
+          ],
+          "point": 27
+        },
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "CU",
+              "number": 6,
+              "value": 6
+            },
+            {
+              "type": "B",
+              "number": 3,
+              "value": 3
+            },
+            {
+              "type": "CU",
+              "number": 12,
+              "value": 0
+            }
+          ],
+          "point": 26
+        }
+      ],
+      "winner": {
+        "name": "Player B",
+        "point": 1
+      },
+      "logs": [
+        "20 Hand:",
+        "Player B: 6-B 5-CU 2-CU",
+        "Player A: 6-CU 3-B 12-CU",
+        "Player B Starts:",
+        "Player B: Calls Envido (his score is 27)",
+        "Player A: Don’t want (because his score is 26)",
+        "Player B: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 9 Player B: 12"
+      ]
+    },
+    {
+      "round": 21,
+      "player": [
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "B",
+              "number": 5,
+              "value": 5
+            },
+            {
+              "type": "S",
+              "number": 3,
+              "value": 3
+            },
+            {
+              "type": "B",
+              "number": 12,
+              "value": 0
+            }
+          ],
+          "point": 25
+        },
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "B",
+              "number": 6,
+              "value": 6
+            },
+            {
+              "type": "B",
+              "number": 1,
+              "value": 1
+            },
+            {
+              "type": "S",
+              "number": 12,
+              "value": 0
+            }
+          ],
+          "point": 27
+        }
+      ],
+      "winner": {
+        "name": "Player B",
+        "point": 1
+      },
+      "logs": [
+        "21 Hand:",
+        "Player A: 5-B 3-S 12-B",
+        "Player B: 6-B 1-B 12-S",
+        "Player A Starts:",
+        "Player A: Passes",
+        "Player B: Calls Envido (his score is 27)",
+        "Player A: Don’t want (because his score is 25)",
+        "Player B: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 9 Player B: 13"
+      ]
+    },
+    {
+      "round": 22,
+      "player": [
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "S",
+              "number": 7,
+              "value": 7
+            },
+            {
+              "type": "CO",
+              "number": 6,
+              "value": 6
+            },
+            {
+              "type": "B",
+              "number": 3,
+              "value": 3
+            }
+          ],
+          "point": 7
+        },
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "B",
+              "number": 4,
+              "value": 4
+            },
+            {
+              "type": "S",
+              "number": 1,
+              "value": 1
+            },
+            {
+              "type": "B",
+              "number": 11,
+              "value": 0
+            }
+          ],
+          "point": 24
+        }
+      ],
+      "winner": {
+        "name": "Player A",
+        "point": 1
+      },
+      "logs": [
+        "22 Hand:",
+        "Player B: 7-S 6-CO 3-B",
+        "Player A: 4-B 1-S 11-B",
+        "Player B Starts:",
+        "Player B: Passes",
+        "Player A: Calls Envido (his score is 24)",
+        "Player B: Don’t want (because his score is 7)",
+        "Player A: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 10 Player B: 13"
+      ]
+    },
+    {
+      "round": 23,
+      "player": [
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "B",
+              "number": 7,
+              "value": 7
+            },
+            {
+              "type": "S",
+              "number": 6,
+              "value": 6
+            },
+            {
+              "type": "B",
+              "number": 1,
+              "value": 1
+            }
+          ],
+          "point": 28
+        },
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "S",
+              "number": 2,
+              "value": 2
+            },
+            {
+              "type": "CU",
+              "number": 2,
+              "value": 2
+            },
+            {
+              "type": "CU",
+              "number": 11,
+              "value": 0
+            }
+          ],
+          "point": 22
+        }
+      ],
+      "winner": {
+        "name": "Player A",
+        "point": 1
+      },
+      "logs": [
+        "23 Hand:",
+        "Player A: 7-B 6-S 1-B",
+        "Player B: 2-S 2-CU 11-CU",
+        "Player A Starts:",
+        "Player A: Calls Envido (his score is 28)",
+        "Player B: Don’t want (because his score is 22)",
+        "Player A: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 11 Player B: 13"
+      ]
+    },
+    {
+      "round": 24,
+      "player": [
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "CU",
+              "number": 7,
+              "value": 7
+            },
+            {
+              "type": "B",
+              "number": 7,
+              "value": 7
+            },
+            {
+              "type": "CU",
+              "number": 4,
+              "value": 4
+            }
+          ],
+          "point": 31
+        },
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "B",
+              "number": 5,
+              "value": 5
+            },
+            {
+              "type": "B",
+              "number": 10,
+              "value": 0
+            },
+            {
+              "type": "S",
+              "number": 11,
+              "value": 0
+            }
+          ],
+          "point": 25
+        }
+      ],
+      "winner": {
+        "name": "Player B",
+        "point": 1
+      },
+      "logs": [
+        "24 Hand:",
+        "Player B: 7-CU 7-B 4-CU",
+        "Player A: 5-B 10-B 11-S",
+        "Player B Starts:",
+        "Player B: Calls Envido (his score is 31)",
+        "Player A: Don’t want (because his score is 25)",
+        "Player B: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 11 Player B: 14"
+      ]
+    },
+    {
+      "round": 25,
+      "player": [
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "CO",
+              "number": 5,
+              "value": 5
+            },
+            {
+              "type": "CU",
+              "number": 3,
+              "value": 3
+            },
+            {
+              "type": "CO",
+              "number": 1,
+              "value": 1
+            }
+          ],
+          "point": 26
+        },
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "S",
+              "number": 4,
+              "value": 4
+            },
+            {
+              "type": "CO",
+              "number": 2,
+              "value": 2
+            },
+            {
+              "type": "CO",
+              "number": 12,
+              "value": 0
+            }
+          ],
+          "point": 22
+        }
+      ],
+      "winner": {
+        "name": "Player B",
+        "point": 1
+      },
+      "logs": [
+        "25 Hand:",
+        "Player A: 5-CO 3-CU 1-CO",
+        "Player B: 4-S 2-CO 12-CO",
+        "Player A Starts:",
+        "Player A: Passes",
+        "Player B: Calls Envido (his score is 22)",
+        "Player A: Don’t want (because his score is 26)",
+        "Player B: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 11 Player B: 15"
+      ]
+    },
+    {
+      "round": 26,
+      "player": [
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "S",
+              "number": 4,
+              "value": 4
+            },
+            {
+              "type": "CU",
+              "number": 3,
+              "value": 3
+            },
+            {
+              "type": "CO",
+              "number": 12,
+              "value": 0
+            }
+          ],
+          "point": 4
+        },
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "CO",
+              "number": 6,
+              "value": 6
+            },
+            {
+              "type": "CO",
+              "number": 5,
+              "value": 5
+            },
+            {
+              "type": "B",
+              "number": 10,
+              "value": 0
+            }
+          ],
+          "point": 31
+        }
+      ],
+      "winner": {
+        "name": "Player A",
+        "point": 1
+      },
+      "logs": [
+        "26 Hand:",
+        "Player B: 4-S 3-CU 12-CO",
+        "Player A: 6-CO 5-CO 10-B",
+        "Player B Starts:",
+        "Player B: Passes",
+        "Player A: Calls Envido (his score is 31)",
+        "Player B: Don’t want (because his score is 4)",
+        "Player A: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 12 Player B: 15"
+      ]
+    },
+    {
+      "round": 27,
+      "player": [
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "CO",
+              "number": 7,
+              "value": 7
+            },
+            {
+              "type": "CU",
+              "number": 5,
+              "value": 5
+            },
+            {
+              "type": "S",
+              "number": 4,
+              "value": 4
+            }
+          ],
+          "point": 7
+        },
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "B",
+              "number": 4,
+              "value": 4
+            },
+            {
+              "type": "CO",
+              "number": 3,
+              "value": 3
+            },
+            {
+              "type": "S",
+              "number": 11,
+              "value": 0
+            }
+          ],
+          "point": 4
+        }
+      ],
+      "winner": {
+        "name": "Player B",
+        "point": 1
+      },
+      "logs": [
+        "27 Hand:",
+        "Player A: 7-CO 5-CU 4-S",
+        "Player B: 4-B 3-CO 11-S",
+        "Player A Starts:",
+        "Player A: Passes",
+        "Player B: Calls Envido (his score is 4)",
+        "Player A: Don’t want (because his score is 7)",
+        "Player B: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 12 Player B: 16"
+      ]
+    },
+    {
+      "round": 28,
+      "player": [
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "CU",
+              "number": 5,
+              "value": 5
+            },
+            {
+              "type": "S",
+              "number": 2,
+              "value": 2
+            },
+            {
+              "type": "S",
+              "number": 11,
+              "value": 0
+            }
+          ],
+          "point": 22
+        },
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "B",
+              "number": 4,
+              "value": 4
+            },
+            {
+              "type": "CU",
+              "number": 10,
+              "value": 0
+            },
+            {
+              "type": "B",
+              "number": 10,
+              "value": 0
+            }
+          ],
+          "point": 24
+        }
+      ],
+      "winner": {
+        "name": "Player A",
+        "point": 1
+      },
+      "logs": [
+        "28 Hand:",
+        "Player B: 5-CU 2-S 11-S",
+        "Player A: 4-B 10-CU 10-B",
+        "Player B Starts:",
+        "Player B: Passes",
+        "Player A: Calls Envido (his score is 24)",
+        "Player B: Don’t want (because his score is 22)",
+        "Player A: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 13 Player B: 16"
+      ]
+    },
+    {
+      "round": 29,
+      "player": [
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "S",
+              "number": 7,
+              "value": 7
+            },
+            {
+              "type": "CO",
+              "number": 6,
+              "value": 6
+            },
+            {
+              "type": "S",
+              "number": 11,
+              "value": 0
+            }
+          ],
+          "point": 27
+        },
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "B",
+              "number": 7,
+              "value": 7
+            },
+            {
+              "type": "CO",
+              "number": 3,
+              "value": 3
+            },
+            {
+              "type": "S",
+              "number": 3,
+              "value": 3
+            }
+          ],
+          "point": 7
+        }
+      ],
+      "winner": {
+        "name": "Player A",
+        "point": 1
+      },
+      "logs": [
+        "29 Hand:",
+        "Player A: 7-S 6-CO 11-S",
+        "Player B: 7-B 3-CO 3-S",
+        "Player A Starts:",
+        "Player A: Calls Envido (his score is 27)",
+        "Player B: Don’t want (because his score is 7)",
+        "Player A: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 14 Player B: 16"
+      ]
+    },
+    {
+      "round": 30,
+      "player": [
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "CU",
+              "number": 7,
+              "value": 7
+            },
+            {
+              "type": "S",
+              "number": 12,
+              "value": 0
+            },
+            {
+              "type": "B",
+              "number": 12,
+              "value": 0
+            }
+          ],
+          "point": 7
+        },
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "CU",
+              "number": 5,
+              "value": 5
+            },
+            {
+              "type": "B",
+              "number": 3,
+              "value": 3
+            },
+            {
+              "type": "B",
+              "number": 2,
+              "value": 2
+            }
+          ],
+          "point": 25
+        }
+      ],
+      "winner": {
+        "name": "Player A",
+        "point": 1
+      },
+      "logs": [
+        "30 Hand:",
+        "Player B: 7-CU 12-S 12-B",
+        "Player A: 5-CU 3-B 2-B",
+        "Player B Starts:",
+        "Player B: Passes",
+        "Player A: Calls Envido (his score is 25)",
+        "Player B: Don’t want (because his score is 7)",
+        "Player A: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 15 Player B: 16"
+      ]
+    },
+    {
+      "round": 31,
+      "player": [
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "CO",
+              "number": 6,
+              "value": 6
+            },
+            {
+              "type": "S",
+              "number": 4,
+              "value": 4
+            },
+            {
+              "type": "S",
+              "number": 11,
+              "value": 0
+            }
+          ],
+          "point": 24
+        },
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "S",
+              "number": 7,
+              "value": 7
+            },
+            {
+              "type": "CU",
+              "number": 2,
+              "value": 2
+            },
+            {
+              "type": "CO",
+              "number": 10,
+              "value": 0
+            }
+          ],
+          "point": 7
+        }
+      ],
+      "winner": {
+        "name": "Player B",
+        "point": 1
+      },
+      "logs": [
+        "31 Hand:",
+        "Player A: 6-CO 4-S 11-S",
+        "Player B: 7-S 2-CU 10-CO",
+        "Player A Starts:",
+        "Player A: Passes",
+        "Player B: Calls Envido (his score is 7)",
+        "Player A: Don’t want (because his score is 24)",
+        "Player B: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 15 Player B: 17"
+      ]
+    },
+    {
+      "round": 32,
+      "player": [
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "S",
+              "number": 2,
+              "value": 2
+            },
+            {
+              "type": "CO",
+              "number": 11,
+              "value": 0
+            },
+            {
+              "type": "B",
+              "number": 11,
+              "value": 0
+            }
+          ],
+          "point": 2
+        },
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "S",
+              "number": 6,
+              "value": 6
+            },
+            {
+              "type": "CU",
+              "number": 5,
+              "value": 5
+            },
+            {
+              "type": "S",
+              "number": 4,
+              "value": 4
+            }
+          ],
+          "point": 30
+        }
+      ],
+      "winner": {
+        "name": "Player A",
+        "point": 1
+      },
+      "logs": [
+        "32 Hand:",
+        "Player B: 2-S 11-CO 11-B",
+        "Player A: 6-S 5-CU 4-S",
+        "Player B Starts:",
+        "Player B: Passes",
+        "Player A: Calls Envido (his score is 30)",
+        "Player B: Don’t want (because his score is 2)",
+        "Player A: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 16 Player B: 17"
+      ]
+    },
+    {
+      "round": 33,
+      "player": [
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "CO",
+              "number": 6,
+              "value": 6
+            },
+            {
+              "type": "S",
+              "number": 6,
+              "value": 6
+            },
+            {
+              "type": "S",
+              "number": 4,
+              "value": 4
+            }
+          ],
+          "point": 30
+        },
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "B",
+              "number": 6,
+              "value": 6
+            },
+            {
+              "type": "S",
+              "number": 5,
+              "value": 5
+            },
+            {
+              "type": "B",
+              "number": 3,
+              "value": 3
+            }
+          ],
+          "point": 29
+        }
+      ],
+      "winner": {
+        "name": "Player A",
+        "point": 2
+      },
+      "logs": [
+        "33 Hand:",
+        "Player A: 6-CO 6-S 4-S",
+        "Player B: 6-B 5-S 3-B",
+        "Player A Starts:",
+        "Player A: Calls Envido (his score is 30)",
+        "Player B: Answers I want",
+        "Player A: Announces Point of : 30",
+        "Player B: Announces Point of : 29",
+        "Player A: Wins hand and gets 2 points on global score.",
+        "Global Score : Player A: 18 Player B: 17"
+      ]
+    },
+    {
+      "round": 34,
+      "player": [
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "CU",
+              "number": 4,
+              "value": 4
+            },
+            {
+              "type": "S",
+              "number": 1,
+              "value": 1
+            },
+            {
+              "type": "S",
+              "number": 10,
+              "value": 0
+            }
+          ],
+          "point": 21
+        },
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "CO",
+              "number": 7,
+              "value": 7
+            },
+            {
+              "type": "CU",
+              "number": 1,
+              "value": 1
+            },
+            {
+              "type": "B",
+              "number": 1,
+              "value": 1
+            }
+          ],
+          "point": 7
+        }
+      ],
+      "winner": {
+        "name": "Player A",
+        "point": 1
+      },
+      "logs": [
+        "34 Hand:",
+        "Player B: 4-CU 1-S 10-S",
+        "Player A: 7-CO 1-CU 1-B",
+        "Player B Starts:",
+        "Player B: Passes",
+        "Player A: Calls Envido (his score is 7)",
+        "Player B: Don’t want (because his score is 21)",
+        "Player A: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 19 Player B: 17"
+      ]
+    },
+    {
+      "round": 35,
+      "player": [
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "S",
+              "number": 5,
+              "value": 5
+            },
+            {
+              "type": "CU",
+              "number": 1,
+              "value": 1
+            },
+            {
+              "type": "B",
+              "number": 12,
+              "value": 0
+            }
+          ],
+          "point": 5
+        },
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "CU",
+              "number": 4,
+              "value": 4
+            },
+            {
+              "type": "B",
+              "number": 10,
+              "value": 0
+            },
+            {
+              "type": "CU",
+              "number": 11,
+              "value": 0
+            }
+          ],
+          "point": 24
+        }
+      ],
+      "winner": {
+        "name": "Player B",
+        "point": 1
+      },
+      "logs": [
+        "35 Hand:",
+        "Player A: 5-S 1-CU 12-B",
+        "Player B: 4-CU 10-B 11-CU",
+        "Player A Starts:",
+        "Player A: Passes",
+        "Player B: Calls Envido (his score is 24)",
+        "Player A: Don’t want (because his score is 5)",
+        "Player B: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 19 Player B: 18"
+      ]
+    },
+    {
+      "round": 36,
+      "player": [
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "B",
+              "number": 7,
+              "value": 7
+            },
+            {
+              "type": "S",
+              "number": 5,
+              "value": 5
+            },
+            {
+              "type": "B",
+              "number": 2,
+              "value": 2
+            }
+          ],
+          "point": 29
+        },
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "S",
+              "number": 7,
+              "value": 7
+            },
+            {
+              "type": "S",
+              "number": 4,
+              "value": 4
+            },
+            {
+              "type": "CU",
+              "number": 12,
+              "value": 0
+            }
+          ],
+          "point": 31
+        }
+      ],
+      "winner": {
+        "name": "Player A",
+        "point": 2
+      },
+      "logs": [
+        "36 Hand:",
+        "Player B: 7-B 5-S 2-B",
+        "Player A: 7-S 4-S 12-CU",
+        "Player B Starts:",
+        "Player B: Calls Envido (his score is 29)",
+        "Player A: Answers I want",
+        "Player B: Announces Point of : 29",
+        "Player A: Announces Point of : 31",
+        "Player A: Wins hand and gets 2 points on global score.",
+        "Global Score : Player A: 21 Player B: 18"
+      ]
+    },
+    {
+      "round": 37,
+      "player": [
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "CO",
+              "number": 6,
+              "value": 6
+            },
+            {
+              "type": "CU",
+              "number": 1,
+              "value": 1
+            },
+            {
+              "type": "CO",
+              "number": 12,
+              "value": 0
+            }
+          ],
+          "point": 26
+        },
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "B",
+              "number": 3,
+              "value": 3
+            },
+            {
+              "type": "S",
+              "number": 12,
+              "value": 0
+            },
+            {
+              "type": "S",
+              "number": 11,
+              "value": 0
+            }
+          ],
+          "point": 20
+        }
+      ],
+      "winner": {
+        "name": "Player B",
+        "point": 1
+      },
+      "logs": [
+        "37 Hand:",
+        "Player A: 6-CO 1-CU 12-CO",
+        "Player B: 3-B 12-S 11-S",
+        "Player A Starts:",
+        "Player A: Passes",
+        "Player B: Calls Envido (his score is 20)",
+        "Player A: Don’t want (because his score is 26)",
+        "Player B: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 21 Player B: 19"
+      ]
+    },
+    {
+      "round": 38,
+      "player": [
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "CU",
+              "number": 5,
+              "value": 5
+            },
+            {
+              "type": "CU",
+              "number": 3,
+              "value": 3
+            },
+            {
+              "type": "CO",
+              "number": 1,
+              "value": 1
+            }
+          ],
+          "point": 28
+        },
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "B",
+              "number": 6,
+              "value": 6
+            },
+            {
+              "type": "CU",
+              "number": 1,
+              "value": 1
+            },
+            {
+              "type": "B",
+              "number": 1,
+              "value": 1
+            }
+          ],
+          "point": 27
+        }
+      ],
+      "winner": {
+        "name": "Player B",
+        "point": 2
+      },
+      "logs": [
+        "38 Hand:",
+        "Player B: 5-CU 3-CU 1-CO",
+        "Player A: 6-B 1-CU 1-B",
+        "Player B Starts:",
+        "Player B: Calls Envido (his score is 28)",
+        "Player A: Answers I want",
+        "Player B: Announces Point of : 28",
+        "Player A: Announces Point of : 27",
+        "Player B: Wins hand and gets 2 points on global score.",
+        "Global Score : Player A: 21 Player B: 21"
+      ]
+    },
+    {
+      "round": 39,
+      "player": [
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "B",
+              "number": 3,
+              "value": 3
+            },
+            {
+              "type": "CO",
+              "number": 2,
+              "value": 2
+            },
+            {
+              "type": "CU",
+              "number": 11,
+              "value": 0
+            }
+          ],
+          "point": 3
+        },
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "B",
+              "number": 5,
+              "value": 5
+            },
+            {
+              "type": "CU",
+              "number": 10,
+              "value": 0
+            },
+            {
+              "type": "CO",
+              "number": 12,
+              "value": 0
+            }
+          ],
+          "point": 5
+        }
+      ],
+      "winner": {
+        "name": "Player B",
+        "point": 1
+      },
+      "logs": [
+        "39 Hand:",
+        "Player A: 3-B 2-CO 11-CU",
+        "Player B: 5-B 10-CU 12-CO",
+        "Player A Starts:",
+        "Player A: Passes",
+        "Player B: Calls Envido (his score is 5)",
+        "Player A: Don’t want (because his score is 3)",
+        "Player B: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 21 Player B: 22"
+      ]
+    },
+    {
+      "round": 40,
+      "player": [
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "CU",
+              "number": 5,
+              "value": 5
+            },
+            {
+              "type": "CU",
+              "number": 12,
+              "value": 0
+            },
+            {
+              "type": "B",
+              "number": 12,
+              "value": 0
+            }
+          ],
+          "point": 25
+        },
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "B",
+              "number": 6,
+              "value": 6
+            },
+            {
+              "type": "CO",
+              "number": 1,
+              "value": 1
+            },
+            {
+              "type": "B",
+              "number": 10,
+              "value": 0
+            }
+          ],
+          "point": 26
+        }
+      ],
+      "winner": {
+        "name": "Player A",
+        "point": 1
+      },
+      "logs": [
+        "40 Hand:",
+        "Player B: 5-CU 12-CU 12-B",
+        "Player A: 6-B 1-CO 10-B",
+        "Player B Starts:",
+        "Player B: Passes",
+        "Player A: Calls Envido (his score is 26)",
+        "Player B: Don’t want (because his score is 25)",
+        "Player A: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 22 Player B: 22"
+      ]
+    },
+    {
+      "round": 41,
+      "player": [
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "B",
+              "number": 5,
+              "value": 5
+            },
+            {
+              "type": "S",
+              "number": 10,
+              "value": 0
+            },
+            {
+              "type": "CO",
+              "number": 12,
+              "value": 0
+            }
+          ],
+          "point": 5
+        },
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "S",
+              "number": 6,
+              "value": 6
+            },
+            {
+              "type": "B",
+              "number": 3,
+              "value": 3
+            },
+            {
+              "type": "CO",
+              "number": 1,
+              "value": 1
+            }
+          ],
+          "point": 6
+        }
+      ],
+      "winner": {
+        "name": "Player B",
+        "point": 1
+      },
+      "logs": [
+        "41 Hand:",
+        "Player A: 5-B 10-S 12-CO",
+        "Player B: 6-S 3-B 1-CO",
+        "Player A Starts:",
+        "Player A: Passes",
+        "Player B: Calls Envido (his score is 6)",
+        "Player A: Don’t want (because his score is 5)",
+        "Player B: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 22 Player B: 23"
+      ]
+    },
+    {
+      "round": 42,
+      "player": [
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "B",
+              "number": 7,
+              "value": 7
+            },
+            {
+              "type": "S",
+              "number": 4,
+              "value": 4
+            },
+            {
+              "type": "B",
+              "number": 4,
+              "value": 4
+            }
+          ],
+          "point": 31
+        },
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "CU",
+              "number": 7,
+              "value": 7
+            },
+            {
+              "type": "CU",
+              "number": 2,
+              "value": 2
+            },
+            {
+              "type": "S",
+              "number": 10,
+              "value": 0
+            }
+          ],
+          "point": 29
+        }
+      ],
+      "winner": {
+        "name": "Player B",
+        "point": 2
+      },
+      "logs": [
+        "42 Hand:",
+        "Player B: 7-B 4-S 4-B",
+        "Player A: 7-CU 2-CU 10-S",
+        "Player B Starts:",
+        "Player B: Calls Envido (his score is 31)",
+        "Player A: Answers I want",
+        "Player B: Announces Point of : 31",
+        "Player A: Announces Point of : 29",
+        "Player B: Wins hand and gets 2 points on global score.",
+        "Global Score : Player A: 22 Player B: 25"
+      ]
+    },
+    {
+      "round": 43,
+      "player": [
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "CU",
+              "number": 7,
+              "value": 7
+            },
+            {
+              "type": "CO",
+              "number": 2,
+              "value": 2
+            },
+            {
+              "type": "B",
+              "number": 12,
+              "value": 0
+            }
+          ],
+          "point": 7
+        },
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "S",
+              "number": 6,
+              "value": 6
+            },
+            {
+              "type": "CO",
+              "number": 5,
+              "value": 5
+            },
+            {
+              "type": "CO",
+              "number": 1,
+              "value": 1
+            }
+          ],
+          "point": 26
+        }
+      ],
+      "winner": {
+        "name": "Player B",
+        "point": 1
+      },
+      "logs": [
+        "43 Hand:",
+        "Player A: 7-CU 2-CO 12-B",
+        "Player B: 6-S 5-CO 1-CO",
+        "Player A Starts:",
+        "Player A: Passes",
+        "Player B: Calls Envido (his score is 26)",
+        "Player A: Don’t want (because his score is 7)",
+        "Player B: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 22 Player B: 26"
+      ]
+    },
+    {
+      "round": 44,
+      "player": [
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "B",
+              "number": 5,
+              "value": 5
+            },
+            {
+              "type": "CU",
+              "number": 3,
+              "value": 3
+            },
+            {
+              "type": "S",
+              "number": 12,
+              "value": 0
+            }
+          ],
+          "point": 5
+        },
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "S",
+              "number": 1,
+              "value": 1
+            },
+            {
+              "type": "B",
+              "number": 11,
+              "value": 0
+            },
+            {
+              "type": "CO",
+              "number": 12,
+              "value": 0
+            }
+          ],
+          "point": 1
+        }
+      ],
+      "winner": {
+        "name": "Player A",
+        "point": 1
+      },
+      "logs": [
+        "44 Hand:",
+        "Player B: 5-B 3-CU 12-S",
+        "Player A: 1-S 11-B 12-CO",
+        "Player B Starts:",
+        "Player B: Passes",
+        "Player A: Calls Envido (his score is 1)",
+        "Player B: Don’t want (because his score is 5)",
+        "Player A: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 23 Player B: 26"
+      ]
+    },
+    {
+      "round": 45,
+      "player": [
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "B",
+              "number": 5,
+              "value": 5
+            },
+            {
+              "type": "B",
+              "number": 11,
+              "value": 0
+            },
+            {
+              "type": "S",
+              "number": 11,
+              "value": 0
+            }
+          ],
+          "point": 25
+        },
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "CO",
+              "number": 4,
+              "value": 4
+            },
+            {
+              "type": "CU",
+              "number": 4,
+              "value": 4
+            },
+            {
+              "type": "CO",
+              "number": 1,
+              "value": 1
+            }
+          ],
+          "point": 25
+        }
+      ],
+      "winner": {
+        "name": "Player B",
+        "point": 1
+      },
+      "logs": [
+        "45 Hand:",
+        "Player A: 5-B 11-B 11-S",
+        "Player B: 4-CO 4-CU 1-CO",
+        "Player A Starts:",
+        "Player A: Passes",
+        "Player B: Calls Envido (his score is 25)",
+        "Player A: Don’t want (because his score is 25)",
+        "Player B: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 23 Player B: 27"
+      ]
+    },
+    {
+      "round": 46,
+      "player": [
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "B",
+              "number": 6,
+              "value": 6
+            },
+            {
+              "type": "B",
+              "number": 5,
+              "value": 5
+            },
+            {
+              "type": "CO",
+              "number": 10,
+              "value": 0
+            }
+          ],
+          "point": 31
+        },
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "CU",
+              "number": 7,
+              "value": 7
+            },
+            {
+              "type": "B",
+              "number": 3,
+              "value": 3
+            },
+            {
+              "type": "B",
+              "number": 10,
+              "value": 0
+            }
+          ],
+          "point": 23
+        }
+      ],
+      "winner": {
+        "name": "Player B",
+        "point": 1
+      },
+      "logs": [
+        "46 Hand:",
+        "Player B: 6-B 5-B 10-CO",
+        "Player A: 7-CU 3-B 10-B",
+        "Player B Starts:",
+        "Player B: Calls Envido (his score is 31)",
+        "Player A: Don’t want (because his score is 23)",
+        "Player B: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 23 Player B: 28"
+      ]
+    },
+    {
+      "round": 47,
+      "player": [
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "S",
+              "number": 5,
+              "value": 5
+            },
+            {
+              "type": "CU",
+              "number": 1,
+              "value": 1
+            },
+            {
+              "type": "S",
+              "number": 10,
+              "value": 0
+            }
+          ],
+          "point": 25
+        },
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "B",
+              "number": 3,
+              "value": 3
+            },
+            {
+              "type": "CU",
+              "number": 11,
+              "value": 0
+            },
+            {
+              "type": "CO",
+              "number": 12,
+              "value": 0
+            }
+          ],
+          "point": 3
+        }
+      ],
+      "winner": {
+        "name": "Player B",
+        "point": 1
+      },
+      "logs": [
+        "47 Hand:",
+        "Player A: 5-S 1-CU 10-S",
+        "Player B: 3-B 11-CU 12-CO",
+        "Player A Starts:",
+        "Player A: Passes",
+        "Player B: Calls Envido (his score is 3)",
+        "Player A: Don’t want (because his score is 25)",
+        "Player B: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 23 Player B: 29"
+      ]
+    },
+    {
+      "round": 48,
+      "player": [
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "CU",
+              "number": 4,
+              "value": 4
+            },
+            {
+              "type": "S",
+              "number": 2,
+              "value": 2
+            },
+            {
+              "type": "CO",
+              "number": 12,
+              "value": 0
+            }
+          ],
+          "point": 4
+        },
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "B",
+              "number": 4,
+              "value": 4
+            },
+            {
+              "type": "S",
+              "number": 4,
+              "value": 4
+            },
+            {
+              "type": "S",
+              "number": 12,
+              "value": 0
+            }
+          ],
+          "point": 24
+        }
+      ],
+      "winner": {
+        "name": "Player A",
+        "point": 1
+      },
+      "logs": [
+        "48 Hand:",
+        "Player B: 4-CU 2-S 12-CO",
+        "Player A: 4-B 4-S 12-S",
+        "Player B Starts:",
+        "Player B: Passes",
+        "Player A: Calls Envido (his score is 24)",
+        "Player B: Don’t want (because his score is 4)",
+        "Player A: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 24 Player B: 29"
+      ]
+    },
+    {
+      "round": 49,
+      "player": [
+        {
+          "name": "Player A",
+          "cards": [
+            {
+              "type": "CU",
+              "number": 4,
+              "value": 4
+            },
+            {
+              "type": "B",
+              "number": 2,
+              "value": 2
+            },
+            {
+              "type": "S",
+              "number": 1,
+              "value": 1
+            }
+          ],
+          "point": 4
+        },
+        {
+          "name": "Player B",
+          "cards": [
+            {
+              "type": "B",
+              "number": 5,
+              "value": 5
+            },
+            {
+              "type": "B",
+              "number": 3,
+              "value": 3
+            },
+            {
+              "type": "S",
+              "number": 12,
+              "value": 0
+            }
+          ],
+          "point": 28
+        }
+      ],
+      "winner": {
+        "name": "Player B",
+        "point": 1
+      },
+      "logs": [
+        "49 Hand:",
+        "Player A: 4-CU 2-B 1-S",
+        "Player B: 5-B 3-B 12-S",
+        "Player A Starts:",
+        "Player A: Passes",
+        "Player B: Calls Envido (his score is 28)",
+        "Player A: Don’t want (because his score is 4)",
+        "Player B: Wins hand and gets 1 points on global score.",
+        "Global Score : Player A: 24 Player B: 30",
+        "The winner is Player B with score 30"
+      ]
+    }
+  ]
+}

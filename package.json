@@ -1,0 +1,21 @@
+{
+  "name": "infinity-level-challenge",
+  "version": "0.0.1",
+  "main": "run.js",
+  "scripts": {
+    "start": "node run.js",
+    "test": "mocha $(find src -name '*-test.js') --compilers js:babel-core/register"
+  },
+  "dependencies": {
+    "babel": "~5.8.29",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-core": "~5.8.33",
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  },
+  "engines": {
+    "node": "4.1.1"
+  }
+}
